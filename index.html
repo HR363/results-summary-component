@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results Summary Component</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="results-section">
+            <h2 class="results-title">Your Result</h2>
+            
+            <div class="score-circle">
+                <span class="total-score">76</span>
+                <span class="total-max">of 100</span>
+            </div>
+            
+            <div class="result-summary">
+                <h3 class="result-grade">Great</h3>
+                <p class="result-description">
+                    You scored higher than 65% of the people who took these tests.
+                </p>
+            </div>
+        </div>
+        
+        <div class="summary-section">
+            <h2 class="summary-title">Summary</h2>
+            
+            <div class="summary-items">
+                <div class="summary-item reaction">
+                    <div class="item-left">
+                        <img src="assets\images\icon-reaction.svg" alt="Reaction Icon">
+                        <span>Reaction</span>
+                    </div>
+                    <div class="item-right">
+                        <span class="score">80</span>
+                        <span class="max-score">/ 100</span>
+                    </div>
+                </div>
+                
+                <div class="summary-item memory">
+                    <div class="item-left">
+                        <img src="assets\images\icon-memory.svg" alt="Memory Icon">
+                        <span>Memory</span>
+                    </div>
+                    <div class="item-right">
+                        <span class="score">92</span>
+                        <span class="max-score">/ 100</span>
+                    </div>
+                </div>
+                
+                <div class="summary-item verbal">
+                    <div class="item-left">
+                        <img src="assets\images\icon-verbal.svg" alt="Verbal Icon">
+                        <span>Verbal</span>
+                    </div>
+                    <div class="item-right">
+                        <span class="score">61</span>
+                        <span class="max-score">/ 100</span>
+                    </div>
+                </div>
+                
+                <div class="summary-item visual">
+                    <div class="item-left">
+                        <img src="assets\images\icon-visual.svg" alt="Visual Icon">
+                        <span>Visual</span>
+                    </div>
+                    <div class="item-right">
+                        <span class="score">72</span>
+                        <span class="max-score">/ 100</span>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="continue-btn">Continue</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
